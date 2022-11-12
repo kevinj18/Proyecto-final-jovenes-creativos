@@ -1,0 +1,81 @@
+<!DOCTYPE HTML5>
+<html lang="es-co">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Las ultimas noticias">
+    <meta name="robots" content="index,follow">
+    <title>NoticiasHoy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="../JS/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logotipo">
+            <a title="logo noticias" href="../HTML/index.html"><img src="../IMAGENES/NoticiasHOY-removebg-preview.png" alt="logo noticias"></a>
+            <h2 id="title">NoticiasHoy</h2>
+        </div>
+        <nav>
+            <a href="../HTML/index.html" class="Header">Inicio</a>
+            <a href="../HTML/Ultimas noticias.html" class="Header">Ultimas noticias</a>
+            <a href="../HTML/Sobre nosotros.html" class="Header">Sobre nosotros</a>
+            <a href="../HTML/Suscribete.html" class="Header">Suscribete</a>
+        </nav>
+    </header>
+
+    <div id="cards" class="container">
+        <br>
+        <h1>Últimas noticias</h1>
+        <p>En esta sección vas a encontrar resúmenes de las últimas noticias.</p>
+        <br>
+        <div id="cartas" class="row">
+            <div class="card" style="width: 17rem;">
+                <img src="../IMAGENES/twitter-g57c3b2690_1920.png" class="card-img-top" alt="logo_twitter">
+                <div class="card-body">
+                 <h5 class="card-title">Elon Musk compra Twitter</h5>
+                 <p class="card-text">Completó su adquisición de Twitter por US$ 44.000 millones, confirmó la compañía en una presentación de valores este viernes, poniendo al hombre más rico del mundo a cargo de una de las plataformas de redes sociales más influyentes del mundo.</p>
+                 <a href="#" class="btn btn-primary">Ver más</a>
+                </div>
+            </div>
+            <div class="card" style="width: 17rem;">
+                <img src="../IMAGENES/avion-sin-logos-600x315.jpg" class="card-img-top" alt="imagen_avion">
+                <div class="card-body">
+                 <h5 class="card-title">Colombia tendrá nuevas rutas aéreas</h5>
+                 <p class="card-text">Recientemente cuatro operadores pidieron autorización a la Aeronáutica Civil para nuevas rutas con el propósito de expandir sus servicios y llegar a nuevos destinos del país. Entre las interesadas se encuentran JetSmart Airlines, Heliagro, Aerorepública y Avianca. El próximo jueves 24 de noviembre la Aerocivil emitirá una resolución a las aerolíneas interesadas.</p>
+                 <a href="#" class="btn btn-primary">Ver más</a>
+                </div>
+            </div>
+            <div class="card" style="width: 17rem;">
+                <img src="../IMAGENES/logo_qatar-2022.png" class="card-img-top" alt="logo_qatar-2022">
+                <div class="card-body">
+                 <h5 class="card-title">Se aproxima el mundial Qatar 2022</h5>
+                 <p class="card-text">Todo esta listo para el inicio del mundial Qatar 2022, que por primera vez se realiza en los últimos meses del año, en noviembre y diciembre; la causa de esto son las preocupaciones de salud de los jugadores y espectadores vinculadas al calor.</p>
+                 <a href="#" class="btn btn-primary">Ver más</a>
+                </div>
+            </div>
+            <div class="card" style="width: 17rem;">
+                <img src="../IMAGENES/bank-notes-g795485792_1920.jpg" class="card-img-top" alt="imagen_dolar">
+                <div class="card-body">
+                 <h5 class="card-title">El dolar alcanzó su máximo histórico el pasado lunes 7 de noviembre en Colombia</h5>
+                 <p class="card-text">Los $5,107 pesos que alcanzó el valor el dolar el pasado 7 de noviembre se convirtió en la cifra más alta de la historia y motivo de álgidas discusiones entre los colombianos. El peso colombiano se ha devaluado un 14%, la caída más alta de América Latina después de Argentina y Venezuela.</p>
+                 <a href="#" class="btn btn-primary">Ver más</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="../HTML/Sobre nosotros.html" class="nav-link px-2 text-muted">Conócenos</a></li>
+                <li class="nav-item"><a href="../HTML/index.html" class="nav-link px-2 text-muted">Inicio</a></li>
+                <li class="nav-item"><a href="../HTML/Suscribete.html" class="nav-link px-2 text-muted">Suscríbete</a></li>
+            </ul>   
+            <p class="text-center text-muted">© <span id="currentYear"></span> NoticiasHOY</p>
+        </footer>
+    </div>
+</body>
+</html>
